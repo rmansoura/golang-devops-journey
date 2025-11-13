@@ -1,0 +1,43 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+*.out
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor directory
+vendor/
+
+# Build artifacts
+bin/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.local
+
+# Test coverage
+coverage.txt
+*.coverprofile
